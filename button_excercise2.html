@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excercise 2</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+
+    #whp{
+        position: absolute;
+        cursor: pointer;
+        width: 12rem;
+        left: 448px;
+        top: 270px;
+        padding: 14px;
+        border: none;
+        border-radius: 10px; 
+        background-color: rgb(59, 248, 25);
+        font-weight: 250;
+        transition: all 2s ease-in-out 0.3s;
+    }
+
+    #whp:hover { 
+        background-color:  rgb(114,249,89);
+        color: white;
+        border: 1px solid white; 
+    }
+
+    #tel{
+        position: absolute;
+        cursor: pointer;
+        width: 12rem;
+        left: 650px;
+        top: 270px;
+        border: none;
+        padding: 14px;
+        border-radius: 50px;
+        background-color: rgb(80,183,253);
+        color: white;
+        font-family: 'Open Sans Light';
+        font-weight: 250;
+        transition: all 2s ease-in-out 0.3s;
+    }
+
+    #tel:hover{
+        background-color: rgb(80,183,253);
+        color: black;
+        border: 1px solid white;
+    }
+
+</style>
+<body style="background-color: gray;">
+<button type="button" id="whp" onclick="getwhatsapp(this);" value="https://web.whatsapp.com/">whatsapp</button> 
+<button type="button" id="tel" onclick="gettelegram(this)" value="https://web.telegram.org/a/">telegram</button>
+
+<script>
+function getwhatsapp(link) {
+    location.href = link.value
+}
+
+function gettelegram(link ) {
+    location.href = link.value
+}
+</script>
+</body>
+</html>
