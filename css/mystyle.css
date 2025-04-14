@@ -1,0 +1,9 @@
+.coverbox{
+    background-color: darkslategray;
+    text-align: center;
+    color: yellowgreen;
+    font-family: 'roboto';
+    font-size: 26px;
+    font-weight: 350;
+    letter-spacing: 8px;
+}
