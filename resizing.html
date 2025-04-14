@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RESIZING IMAGES</title>
+<style>
+#rect {
+    width:  400px;
+    height: 400px;
+    /* aspect-ratio: 2/1; */
+    /* transform:scale(0.5); */
+    background-color: maroon;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+#circle{
+    width: 500px;
+    height: 500px; 
+    transform:scale(0.25);
+    /* aspect-ratio: 1/1; */
+    background-color: gold;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+ #myimage{
+    width: 500px;
+    height: 500px;
+    transform: scale(1.5);
+    margin: 150px auto;
+    opacity: 0.5;
+    /* border: 1px solid black; */
+ }
+
+ #chemical{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    transform:scale(1.6);
+ }
+
+</style>
+</head>
+<body>
+    <div id="rect"></div>
+    <div id="myimage">
+        <img src="img/eterna_logo.jpg" width="500" height="500"/>
+    </div>
+    <div id="circle"></div>
+
+    <div id="chemical"> 
+    <img src="img/chemical liquids.png" width="500" height="500" />
+    </div>
+</body>
+</html>
